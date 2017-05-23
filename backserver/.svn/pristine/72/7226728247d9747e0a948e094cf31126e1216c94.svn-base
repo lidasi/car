@@ -1,0 +1,174 @@
+@CHARSET "UTF-8";
+.tzCheckBox{
+	display:inline;
+	background:url(../css/images/dialog/switchbutton.png) no-repeat right bottom;
+	display:inline-block;
+	max-width:40px;
+	min-width:30px;
+	height:17px;
+	white-space:nowrap;
+	position:relative;
+	cursor:pointer;
+	margin-left:14px;
+}
+
+.tzCheckBox.checked{
+	background-position:top left;
+	margin:0 14px 0 0;
+}
+
+.tzCheckBox .tzCBContent{
+	color: block;
+	line-height: 17px;
+	padding-right: 26px;
+	text-align: right;
+	font:12px "微软雅黑";
+}
+
+.tzCheckBox.checked .tzCBContent{
+	color: white;
+	text-align:left;
+	padding:0 0 0 26px;
+}
+
+.tzCBPart{
+	background:url(../css/images/dialog/switchbutton.png) no-repeat left bottom;
+	width:14px;
+	position:absolute;
+	top:0;
+	left:-14px;
+	height:17px;
+	overflow: hidden;
+}
+
+.tzCheckBox.checked .tzCBPart{
+	background-position:top right;
+	left:auto;
+	right:-14px;
+}
+
+.dropdown dl {display:inline-block; _display:inline; vertical-align:center;}
+.dropdown dd, .dropdown dt, .dropdown ul { margin:0px; padding:0px; }
+.dropdown dd { position:relative; }
+.dropdown a, .dropdown a:visited { color:#222222; text-decoration:none; outline:none; }
+.dropdown a:hover { color:#5D5D5D; }
+.dropdown dt a:hover { color:#5D5D5D; border: 1px solid #CCCCCC;}
+.dropdown dt a { background:#FCFCFC url(../css/images/dialog/arrow.png) no-repeat scroll right center; display:block; padding-right:20px; border:1px solid #CCCCCC; width:170px;padding:5px 0px;}
+.dropdown dt a span { cursor:pointer; display:block; padding:1px;}
+.dropdown span.value { display:none; }
+.dropdown dd ul { background:#FCFCFC none repeat scroll 0 0; border:1px solid #CCCCCC; color:#CCCCCC; display:none;  padding:1px 0px; position:absolute; top:2px; width:auto; min-width:170px; list-style:none; }
+.dropdown dd ul li a { padding:1px; display:block; }
+.dropdown dd ul li a:hover { background-color:#EEEDDB; }
+.dropdown img.flag { border:none; width:30px; height:30px; vertical-align:middle; margin-left:10px;}
+
+input[type="text"],
+input[type="password"],
+input[type="number"],
+input[type="email"] {
+ margin:2px 0;
+ padding: 3px;
+ 
+ border: 1px solid; 
+ border-color: #D7D7D7;
+ height:12px;
+ 
+ background-color: #F5F5F5;
+ border: 1px #CCCCCC solid;
+ font-size: 12px;
+ border-radius:5px;
+ scrollbar-arrow-color: #CCCCCC;
+ scrollbar-darkshadow-color:ffffff;
+ scrollbar-face-color:#ffffff;
+ scrollbar-track-color:#ffffff;
+ scrollbar-highlight-color: #ffffff;
+ scrollbar-shadow-color:#eeeee4
+}
+input:focus {
+	border-radius: 5px 5px 5px 5px;
+	border:solid 1px #ED7E47;
+	background:#FFFFFF;
+}
+input[type="text"].search {
+ border: 1px #BDB37B solid;
+ border-radius:2px;
+ background-color: #EEEDDB;
+ height:12px;
+}
+.dingshi_table_title { 
+	padding-top:5px;
+	padding-bottom:5px;
+	text-align:left;
+	font:16px Arial;
+	font-weight:bold;
+	color:#A9A9A9!important;
+	border-style: solid; 
+	border-color: #dddddd;
+	border-width: 0px 0px 1px 0px;
+	margin-left: 0px; 
+	margin-right: auto;
+} /**���ⲿ��**/
+.dingshi_title{
+	/* height:40px; */
+	padding-left:20px;
+	color:#A9A9A9!important;
+	background:#F5F5F5;
+	font:22px Arial, "微软雅黑";
+	font-weight:bold;
+	border:none;		
+}
+
+.dingshi_bottom{	
+	color:#A9A9A9!important;
+	font:14px Arial, "微软雅黑";
+	font-weight:bold;
+	border:none;		
+}
+.border_bottom{
+    border-style: solid; 
+    border-color: #dddddd;
+    border-width: 0px 0px 1px 0px;
+    font:14px "微软雅黑";
+}
+
+.dingshi-btn-reset{
+	float:right;
+	display:inline;
+	background:url("../css/images/dialog/dialog_timer_icon_reset_0.png") no-repeat left top;
+	width:50px;
+	height:29px;
+	text-indent:0px;
+	margin-left:0px;
+	margin-top:10px;
+	cursor:pointer;
+}
+.dingshi-btn-reset:hover{
+	background:url("../css/images/dialog/dialog_timer_icon_reset_1.png") no-repeat left top;
+}
+.dingshi-btn-extend{
+	float:right;
+	display:inline;
+	background:url("../css/images/dialog/dialog_timer_icon_extend_0.png") no-repeat left top;
+	width:50px;
+	height:29px;
+	text-indent:0px;
+	margin-left:0px;
+	margin-top:10px;
+	cursor:pointer;
+}
+.dingshi-btn-extend:hover{
+	background:url("../css/images/dialog/dialog_timer_icon_extend_1.png") no-repeat left top;
+}
+.dingshi-btn-shrink{
+	float:right;
+	display:inline;
+	background:url("../css/images/dialog/dialog_timer_icon_shrink_0.png") no-repeat left top;
+	width:50px;
+	height:29px;
+	text-indent:0px;
+	margin-left:0px;
+	margin-top:0px;
+	cursor:pointer;
+}
+.dingshi-btn-shrink:hover{
+	background:url("../css/images/dialog/dialog_timer_icon_shrink_1.png") no-repeat left top;
+}
